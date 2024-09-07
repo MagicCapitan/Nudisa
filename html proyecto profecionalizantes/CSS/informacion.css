@@ -1,0 +1,40 @@
+.pregu{
+    /* titulo de la pregunta */
+    height: 3vw;
+    width: 100vh;
+    margin: 10px 0px 0px 15%;
+    padding-top: 12px;
+    background-color:  #b0f2c2;
+    text-align:  center;
+    border-radius: 25px 35px  ;
+    cursor: pointer;
+    
+}
+.pregunta_deslisable{
+    /* contenido de la pregunda osea respuesta */
+    height: 0px;
+    width: 100vh;
+    margin-left: 15%;
+    padding-top: 12px;
+    border-color: #b0f2c2;
+    /* background-color:  #b0f2c2; */
+    text-align:  center;
+    /* transform: scale (-1000px, 10px); */
+    transition: 300ms ease-in-out;
+    display: grid;
+    place-items:  center;
+    position:absolute;
+   
+}
+.desple{
+    /* transform: translateX(-0vw);  */
+    transform: translatey(-88vw);
+    display: none;
+}
+.info_preg{
+    /* tamaño de la caja que se forma con el contenido */
+    width: 45vw;
+    text-align:  center;
+    height: 100vh;
+    position:relative;
+}

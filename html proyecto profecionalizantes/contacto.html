@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Nudisa</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" href="Imagenes/logo.jpg">
+
+	<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+	<link rel="stylesheet" type="text/css" href="CSS/General.css">
+	<link rel="stylesheet" type="text/css" href="CSS/contacto.css">
+	
+	
+</head>
+
+<body>
+<!-- cuerpo -->
+<header class="porfolio">
+	
+	<h1 id="titu" class="titulo">Nudisa</h1>
+	
+	<div class="boton">
+		<button class="ini" onclick="location.href='inicio-de-sesion.html'">Iniciar sesion</button>
+		<button class="regi" onclick="location.href='registrarse.php'">Registrarse</button>
+	</div>
+	<!-- navigador web (capeza)-->
+ 	<nav > 
+		<img class="logo " src="Imagenes/logo.jpg">
+
+		<div class="menu_desplegable ">
+		
+			<div class="nav-lin">
+				<li class="lin"><a href="index proyec.html"><img src="Imagenes/ini_logo.png" class="imagen"></a></li>
+				<li class="lin"><a href="calendario.html"><img src="Imagenes/cale_logo.png" class="imagen"></a></li>
+				<li class="lin"><a href="comida.html"><img src="Imagenes/recetas_logo.png" class="imagen"></a></li>
+				<li class="lin"><a href="informacion.html"><img src="Imagenes/info_logo.png" class="imagen"></a></li>
+				<!-- <li class="lin"><a href="contacto.html"><img src="contac_logo.png" class="imagen"></a></li> -->
+			</div>
+		</div>
+	</nav>
+</header>
+
+<section class="formu">
+    <h2 class="arriba">Contacto</h2>
+    <div class="arriba">
+        <form method="post" action="login">
+            <div>
+                <label class="iz" for="nombre">Nombre</label><br>
+                <input type="text" name="Nombre" placeholder="Nombre" required >
+            </div>
+            <div>
+                <label class="iz" for="email">Email</label><br>
+                <input type="email" name="Email" placeholder="Email" required>
+            </div>
+            <div>
+                <label class="iz" for="Tele">Numero de telefono</label><br>
+                <input type="text" name="Telefono" placeholder="Telefono" required>
+            </div>
+            
+            <div>
+                <label class="iz" for="Mensaje">Mensaje</label><br>
+                <textarea name="area" placeholder="Mensaje"></textarea>
+            </div>
+            <button class="boto" type = "submit">enviar</button>
+        </form>
+    </div>  
+</section>
+<footer>
+    <script src="JS/menu.js"></script>
+	
+<div class="dire">
+    <div class="dire">
+            <h2>Direccion</h2>
+            <p>buenos aires <br> G.catan</p>
+        </div>
+	<div class="rede">
+        <a href="https://www.instagram.com/nudisa_/?utm_source=ig_web_button_share_sheet" target="_black">
+        <img class="logos" src="Imagenes/logo-insta.jpg"></a>
+    </div>
+    <p>©Alvarez Lucero Valdez</p>
+</div>
+<!-- pie de pagina -->
+<!-- pie de pagina -->
+</footer> 
+</body> 
+</html>

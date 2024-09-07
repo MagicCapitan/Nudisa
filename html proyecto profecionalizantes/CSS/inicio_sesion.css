@@ -1,0 +1,21 @@
+
+/* formulario de uni y regis*/
+
+.formu{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    height: 16%;
+    border : solid #0a0a0a 3px;
+    background-color: #b0f2c2;
+}
+
+.arriba{
+    padding-bottom: 10px;
+}
+
+.buto{
+    margin-top: 15px;
+    padding: 5px;
+}
+

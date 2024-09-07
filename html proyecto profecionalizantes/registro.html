@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Nudisa</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" href="Imagenes/logo.jpg">
+
+	<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+	<link rel="stylesheet" type="text/css" href="CSS/General.css">
+	<link rel="stylesheet" type="text/css" href="CSS/registro.css">
+	
+	
+</head>
+
+<body>
+<!-- cuerpo -->
+<header class="porfolio">
+	
+	<h1 id="titu" class="titulo">Nudisa</h1>
+	
+	<div class="boton">
+		<button class="ini" onclick="location.href='inicio-de-sesion.html'">Iniciar sesion</button>
+		<button class="regi" onclick="location.href='registrarse.php'">Registrarse</button>
+	</div>
+	<!-- navigador web (capeza)-->
+ 	<nav > 
+		<img class="logo " src="Imagenes/logo.jpg">
+    </nav>
+</header>
+    <form class="formu" method="post" action="login">
+        <div >
+            <h1 class="arriba">Registrarse</h1>
+        </div>
+        <div>
+            <label class="iz" for="Nombre">Nombre</label><br>
+            <input type="text" name="Nombre" placeholder="Nombre" required >
+            <!-- placeholder es lo que vemos en el campo -->
+        </div>
+    <br>
+    <div>
+        <label class="iz" for="Apellido">Apellido</label><br>
+        <input type="text" name="Apellido" placeholder="Apellido" required >
+        <!-- placeholder es lo que vemos en el campo -->
+    </div>
+    <br>
+        <div>
+            <label class="iz" for="Correo">Correo electronico</label><br>
+            <input type="text" name="Correo" placeholder="Correo electronico" required>
+            <!-- placeholder es lo que vemos en el campo -->
+        </div>
+    <br>
+        <div>
+            <label class="iz" for="contraseña">Contraseña</label><br>
+            <input type="password" name="contraseña" placeholder="Contraseña" required>
+        </div>
+    <br>
+        <div>
+            <label class="iz" for="contraseña">Confirmar contraseña</label><br>
+            <input type="password" name="contraseña" placeholder="Confirmar contraseña" required>
+        </div>
+        <div >
+            <button class="buto">Registrarse</button>
+        </div>
+    </form>
+</body>
+</html>

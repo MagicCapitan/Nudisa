@@ -1,0 +1,138 @@
+*/* el "*" marca todo el contenido de html */{
+    margin: 0px; 
+  	padding: 0px;
+    list-style: none;
+}
+
+/* pagina de inicio*/
+
+body{
+    margin-top: 6.8vw;
+
+}
+
+header{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 6.8vw;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    background-color: #b0f2c2;
+    margin-top: -6.8vw;
+}
+.titulo {
+    /* nudisa*/
+    text-align: center; 
+   
+}
+.logo{
+    /* logo nudisa*/
+    position:absolute;
+    left: 3.5vw;
+    height: 5vw;
+    cursor: pointer;
+}
+
+.menu_desplegable{ /* inicio, calendario, comida, info, contacto (menu) */
+    height: 88vh;
+    width: 12vw;
+    background-color:  #b0f2c2;
+    display: grid;
+    place-items:  center;
+    transition: 0.3s ease-in-out;
+    position:absolute;
+    left: 0;
+    top:6.8vw;
+    border-radius: 0px 0px 40px 40px ;
+}
+/* inicio de sesion */
+
+.click{
+   transform: translatey(-88vw);
+   display: none;
+}
+.nav-lin{
+   
+    width: 7vw;
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    padding: 0px;
+}
+
+.lin{
+    width: 100%;
+    text-align: center;
+    height: 10vh;
+    width: 10vh;
+}
+.lin:hover{ /* color de fondo al pasar el cursor */
+    padding: 0px;
+    background-color:#9ED8AE;
+    cursor: pointer;
+    color: #0a0a0a;
+    border-radius:50%;
+
+}
+
+.imagen{
+    height: 70px;
+    height: 10vh;
+}
+
+
+.boton{ 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.8vw;
+    width: 20vw;
+    right: 0;
+
+}
+/* inicio de sesion */
+.ini{ 
+    padding: 6px; 
+    margin: 1.2%;
+    font-size:medium;
+    background-color:#9ED8AE;
+    border-radius: 25px;
+}
+/* registro de sesion */
+.regi{
+    padding: 6px;
+    margin: 1.2%;
+    font-size:medium;
+    background-color:#9ED8AE;
+    border-radius: 25px;
+}
+
+.ini:hover, .regi:hover{
+    cursor: pointer;
+    background-color: #34c75b;
+}
+/*------------------------------------------------FOOTER--------------------------------------------------*/
+.footer {/* nombres de los integrantes y insta (footer) */
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    display: flex; flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    background-color: #9ED8AE;
+}
+.redes{
+    width: 30px;
+    height: 30px;
+}
+ 
+.copyr{
+    text-align: center;
+    font-size: 18px;
+    color: #222;
+}

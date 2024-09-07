@@ -1,0 +1,43 @@
+.artculo{
+    display: grid;
+    grid-template-areas: 
+    "ti_comida ti_comida"
+    "parra foto"
+    "ti_comrem ti_comrem"
+    " fot par";
+
+    /* "fot par " */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    grid-gap: 10px;
+    justify-items:stretch;
+}
+.ti_comida{
+    grid-area: ti_comida; 
+    background-color: #9ED8AE;
+    text-align: center;
+    margin-top: 1px;
+    padding: 10px;}
+
+/* padding es ancho */
+
+.parra{grid-area: parra;
+     padding: 55px; 
+}
+.foto{display: flex;
+    grid-area: foto;
+}
+.ti_comrem {
+    grid-area: ti_comrem; 
+    background-color: #9ED8AE;
+    text-align: center;
+    padding: 10px;
+}
+
+.par{grid-area: par;
+        padding: 55px; 
+}
+
+.fot{display: flex;
+       grid-area: fot; 
+}
